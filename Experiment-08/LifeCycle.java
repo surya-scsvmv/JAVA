@@ -7,3 +7,13 @@ public class LifeCycle extends Applet {
  public void destroy(){System.out.println("destroy()");}
  public void paint(Graphics g){System.out.println("paint()");g.drawString("Minimise and restore this window",20,30);}
 }
+
+/*
+init()
+start()
+paint()
+stop()
+start()
+paint()
+destroy()
+*/
