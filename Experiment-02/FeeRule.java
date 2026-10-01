@@ -6,3 +6,9 @@ public class FeeRule {
         return 40000;
     }
 }
+
+/*
+BE  -> 75000.00
+ME  -> 60000.00
+BSc -> 40000.00
+*/
