@@ -12,3 +12,10 @@ public class FeeApp {
         System.out.printf("Total fee = %.2f%n", total);
     }
 }
+
+/*
+Meena    BE      75000.00
+Ravi     ME      60000.00
+Anu      BSc     40000.00
+Total fee = 175000.00
+*/
