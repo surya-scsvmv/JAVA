@@ -5,3 +5,8 @@ public class UseMath {
         System.out.println("Cube   of 3 = " + MathUtil.cube(3));
     }
 }
+
+/*
+Square of 7 = 49
+Cube   of 3 = 27
+*/
