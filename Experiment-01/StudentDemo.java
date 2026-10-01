@@ -11,3 +11,9 @@ public class StudentDemo {
         System.out.println("ROLL NAME        MARKS"); s1.show(); s2.show();
     }
 }
+
+/*
+ROLL NAME        MARKS
+101    Aravind                    78
+102    Divya                    91
+*/
