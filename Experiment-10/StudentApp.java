@@ -19,3 +19,10 @@ public class StudentApp {
         run("SELECT * FROM student WHERE reg_no = ?",reg);
     }
 }
+
+/*
+Register number to search : 101
+101 Aravind 78
+1 row(s) affected.
+101 Aravind 95
+*/
