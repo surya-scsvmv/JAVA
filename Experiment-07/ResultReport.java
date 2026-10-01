@@ -10,3 +10,15 @@ public class ResultReport {
   } catch(IOException e){System.out.println("File error : "+e.getMessage());}
  }
 }
+
+/*
+result.txt created. Passed 2, failed 1
+
+result.txt
+Aravind PASS
+Divya PASS
+Karthik FAIL
+Passed : 2
+Failed : 1
+Average : 71.33
+*/
