@@ -14,3 +14,13 @@ public class StringDemo {
         else System.out.println(a + " is not a palindrome");
     }
 }
+
+/*
+Length      : 17
+Upper case : SCSVMV UNIVERSITY
+First six   : SCSVMV
+Position of U: 7
+Replace S->X: XCXVMV UniverXity
+Original    : SCSVMV University
+madam is a palindrome
+*/
