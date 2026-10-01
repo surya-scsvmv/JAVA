@@ -8,3 +8,12 @@ public class WriteFile {
   } catch (IOException e) { System.out.println("Error : " + e.getMessage()); }
  }
 }
+
+/*
+File written successfully.
+
+student.txt
+101,Aravind,78
+102,Divya,91
+103,Karthik,45
+*/
