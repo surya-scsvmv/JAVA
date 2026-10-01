@@ -12,3 +12,10 @@ public class Atm {
         for(double a:tries){try{withdraw(a);}catch(Exception e){System.out.println("Refused : "+e.getMessage());}}
     }
 }
+
+/*
+Dispensed 2000.0, balance 3000.0
+Refused : 350.0 is not a multiple of 100
+Refused : Balance is only 3000.0
+Dispensed 1500.0, balance 1500.0
+*/
