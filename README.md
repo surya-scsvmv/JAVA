@@ -1,34 +1,53 @@
-# ☕ Java Programming Lab Record
+# Java Programming Lab Record
 
-This repository contains the Java Programming Laboratory experiments and case studies from the SCSVMV lab record.
+A collection of Java Programming Laboratory experiments and case studies for practising core Java, object-oriented programming, concurrency, file operations, graphical interfaces, and database connectivity.
 
-## 🧑‍🎓 Student Details
+<p><img src="https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Topics-OOP%20%7C%20Threads%20%7C%20JDBC-2563EB?style=flat-square" alt="Java topics"/> <img src="https://img.shields.io/badge/Context-Academic%20Lab-0F766E?style=flat-square" alt="Academic lab"/></p>
 
-| Field | Details |
-|---|---|
-| **Name** | P P S PRABHAS |
-| **Register Number** | 11249A284 |
-| **Department** | CSE (AIDS) |
-| **Institution** | SCSVMV University |
+## Experiment index
 
-## 📚 Experiments
+| # | Experiment | Example program names |
+|---:|---|---|
+| 01 | Simple Java applications | `StudentDemo`, `MarksArray`, `StringDemo` |
+| 02 | Package creation | `MathUtil`, `UseMath` |
+| 03 | Interfaces | `ShapeDemo`, `SortDemo` |
+| 04 | Inheritance | `InheritDemo`, `RoleDemo` |
+| 05 | Threading and synchronization | `ThreadDemo`, `SyncDemo` |
+| 06 | Exception handling | `PredefinedDemo`, `UserDefinedDemo` |
+| 07 | File operations | `WriteFile`, `ReadFile` |
+| 08 | Applets | `HelloApplet`, `LifeCycle`, `Palette` |
+| 09 | Swing interfaces | `BorderDemo`, `GridDemo`, `FlowDemo`, `LoginForm` |
+| 10 | Database connectivity | `FetchData`, `InsertData` |
 
-| # | Experiment | Main Programs |
-|---|---|---|
-| 1 | Simple Java Applications | StudentDemo, MarksArray, StringDemo |
-| 2 | Package Creation | MathUtil, UseMath |
-| 3 | Interfaces | ShapeDemo, SortDemo |
-| 4 | Inheritance | InheritDemo, RoleDemo |
-| 5 | Threading | ThreadDemo, SyncDemo |
-| 6 | Exception Handling | PredefinedDemo, UserDefinedDemo |
-| 7 | File Operations in Java | WriteFile, ReadFile |
-| 8 | Applets | HelloApplet, LifeCycle, Palette |
-| 9 | Swings | BorderDemo, GridDemo, FlowDemo, LoginForm |
-| 10 | Database Connectivity | FetchData, InsertData |
+Each experiment folder is intended to include related case-study work from the lab record.
 
-Each experiment folder also contains the corresponding case study from the lab record.
+## Prerequisites
 
-## 📁 Structure
+- Install a JDK compatible with the source files.
+- Check each experiment for package names, required database drivers, and additional setup.
+- Database examples may require a compatible database and JDBC driver.
+- **Legacy applets:** applets are not supported by modern browsers and may require a compatible older Java environment or adaptation for demonstration.
+
+## Compile and run
+
+From the directory containing a simple source file:
+
+```bash
+javac StudentDemo.java
+java StudentDemo
+```
+
+Replace the filename and class name with those for your chosen experiment. For packaged classes, compile and run from the appropriate parent directory using the fully qualified class name.
+
+## Suggested workflow
+
+1. Open the relevant `Experiment-XX` folder.
+2. Review the source and case study.
+3. Confirm JDK, package, and driver requirements.
+4. Compile and run the example.
+5. Record the observed output and test additional inputs where appropriate.
+
+## Repository layout
 
 ```text
 JAVA/
@@ -44,4 +63,17 @@ JAVA/
 └── Experiment-10/
 ```
 
-> **Note:** The Applet experiments are based on the supplied lab PDF. Applets require legacy Java/Applet tooling as described in the lab record.
+## Academic context
+
+Java Programming Laboratory coursework associated with **SCSVMV University**, Computer Science and Engineering (AI & Data Science).
+
+## Related repositories
+
+- [DSA in C](https://github.com/surya-scsvmv/DSA)
+- [C++ Programming Lab](https://github.com/surya-scsvmv/CPP)
+- [Design and Analysis of Algorithms](https://github.com/surya-scsvmv/DAA)
+- [DBMS Laboratory](https://github.com/surya-scsvmv/DBMS)
+
+---
+
+<p align="center">Read the code, run the experiment, and document what you learn.</p>
