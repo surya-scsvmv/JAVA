@@ -19,7 +19,7 @@ A structured collection of Java laboratory experiments, case studies, source pro
 | [Experiment 05](Experiment-05/) | Threads and synchronization | `ThreadDemo`, `SyncDemo`, `Booking` |
 | [Experiment 06](Experiment-06/) | Built-in and user-defined exceptions | `PredefinedDemo`, `UserDefinedDemo`, `Atm` |
 | [Experiment 07](Experiment-07/) | File reading and writing | `WriteFile`, `ReadFile`, `ResultReport` |
-| [Experiment 08](Experiment-08/) | Applet examples and lifecycle | `HelloApplet`, `LifeCycle`, `Palette` |
+| [Experiment 08](Experiment-08/) | Applet examples, lifecycle, and bar-chart graphics | `HelloApplet`, `LifeCycle`, `Palette`, `BarChart` ([original output illustration](Experiment-08/BarChart-Output.svg)) |
 | [Experiment 09](Experiment-09/) | AWT/Swing layouts and forms | `BorderDemo`, `GridDemo`, `FlowDemo`, `LoginForm`, `RegisterForm` |
 | [Experiment 10](Experiment-10/) | JDBC and database operations | `Db`, `FetchData`, `InsertData`, `StudentApp`, `database.sql` |
 
@@ -34,6 +34,7 @@ The applied programs are not limited to the basic demonstration classes. Example
 - A synchronized ticket-booking counter to prevent overbooking.
 - ATM withdrawal validation with custom exceptions.
 - Student result processing through file input and output.
+- An interactive marks bar chart using applet graphics and mouse-click events.
 - Student registration and login forms using Swing.
 - Student record operations using JDBC and SQL.
 
