@@ -69,7 +69,6 @@ Use the matching public class name for each program. Some examples require multi
 - [ ] Code has been compiled and tested in the actual lab environment.
 - [ ] Names, experiment numbers, and required headings match the faculty's lab manual.
 
-> **Important:** This repository is a study and submission aid. Confirm the exact experiment list and case-study requirements against your faculty's lab manual before submission; a repository README cannot guarantee that it matches every instructor's rubric.
 
 ## Academic context
 
