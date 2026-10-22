@@ -40,8 +40,3 @@ For each case study required by the lab manual, include these sections in your r
 - [ ] For file examples, include the required input file and the expected generated file.
 - [ ] For JDBC, include schema/setup SQL and explain the connection configuration.
 - [ ] Add any faculty-prescribed case study not covered by the programs listed above.
-
-## Notes
-
-- Output comments in Java source are convenient references, but they are not a substitute for screenshots or handwritten output pages if your instructor explicitly requires them.
-- The reference repository [S6-JAVA-LAB](https://github.com/SAIPARDHIVKLN/S6-JAVA-LAB) is useful for comparing the coverage and style of case-study tasks. Implement and explain the required work independently, and follow your own lab manual for final requirements.
