@@ -1,6 +1,6 @@
 # Java Lab — Case Study Index
 
-This index connects the applied problems to their implementation in the experiment folders. It is intentionally written as a practical lab companion, not as a replacement for the faculty's prescribed problem statements.
+This index connects the applied problems to their implementation in the experiment folders. It is intended as a practical lab companion, not as a replacement for the faculty's prescribed problem statements.
 
 ## Existing case-study programs
 
@@ -13,15 +13,7 @@ This index connects the applied problems to their implementation in the experime
 | Multi-counter ticket booking | 05 | [Booking.java](../Experiment-05/Booking.java) | Threads, synchronized method, shared state |
 | ATM withdrawal validation | 06 | [Atm.java](../Experiment-06/Atm.java) | User-defined exceptions, validation, exception handling |
 | Student result report | 07 | [ResultReport.java](../Experiment-07/ResultReport.java) | File input/output, parsing, aggregation |
-| Interactive marks bar chart | 08 | [BarChart.java](../Experiment-08/BarChart.java) and [BarChart-Output.svg](../Experiment-08/BarChart-Output.svg) | Java applet graphics, `paint()`, mouse events, conditional bar colors |
-
-### Experiment 08 — BarChart case study
-
-`BarChart.java` draws five subject-mark bars using the values defined in the source. Bars for marks of 50 or more are green; the bar below 50 is red. Clicking a bar updates the message to show that subject's mark.
-
-![Original BarChart output illustration](../Experiment-08/BarChart-Output.svg)
-
-The SVG above is an original diagram created for this repository from the values and behavior in `BarChart.java`; it is not copied from the reference repository. It is a static illustration, not a screenshot of a running applet. Capture a real screenshot from your lab environment if your faculty specifically requires runtime evidence.
+| Interactive marks bar chart | 08 | [BarChart.java](../Experiment-08/BarChart.java) | Java applet graphics, `paint()`, mouse events, conditional bar colors |
 | Student registration form | 09 | [RegisterForm.java](../Experiment-09/RegisterForm.java) | Swing components, event handling, input validation |
 | Student database operations | 10 | [StudentApp.java](../Experiment-10/StudentApp.java) and [database.sql](../Experiment-10/database.sql) | JDBC, prepared statements, SQL |
 
