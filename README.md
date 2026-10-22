@@ -1,71 +1,78 @@
 # Java Programming Lab Record
 
-A collection of Java Programming Laboratory experiments and case studies for practising core Java, object-oriented programming, concurrency, file operations, graphical interfaces, and database connectivity.
+A structured collection of Java laboratory experiments, case studies, source programs, and example outputs. The repository follows the experiment-wise format used for lab submission, with the case-study programs kept alongside the relevant concepts.
 
-<p><img src="https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Topics-OOP%20%7C%20Threads%20%7C%20JDBC-2563EB?style=flat-square" alt="Java topics"/> <img src="https://img.shields.io/badge/Context-Academic%20Lab-0F766E?style=flat-square" alt="Academic lab"/></p>
+<p>
+  <img src="https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Lab%20Experiments-10-2563EB?style=flat-square" alt="10 experiments"/>
+  <img src="https://img.shields.io/badge/Includes-Case%20Studies%20%26%20Outputs-0F766E?style=flat-square" alt="Case studies and outputs"/>
+</p>
 
-## Experiment index
+## Contents
 
-| # | Experiment | Example program names |
-|---:|---|---|
-| 01 | Simple Java applications | `StudentDemo`, `MarksArray`, `StringDemo` |
-| 02 | Package creation | `MathUtil`, `UseMath` |
-| 03 | Interfaces | `ShapeDemo`, `SortDemo` |
-| 04 | Inheritance | `InheritDemo`, `RoleDemo` |
-| 05 | Threading and synchronization | `ThreadDemo`, `SyncDemo` |
-| 06 | Exception handling | `PredefinedDemo`, `UserDefinedDemo` |
-| 07 | File operations | `WriteFile`, `ReadFile` |
-| 08 | Applets | `HelloApplet`, `LifeCycle`, `Palette` |
-| 09 | Swing interfaces | `BorderDemo`, `GridDemo`, `FlowDemo`, `LoginForm` |
-| 10 | Database connectivity | `FetchData`, `InsertData` |
+| Experiment | Concepts | Programs / case-study examples |
+|---|---|---|
+| [Experiment 01](Experiment-01/) | Classes, objects, methods, arrays, control statements, strings | `StudentDemo`, `MarksArray`, `StringDemo`, `MessBill` |
+| [Experiment 02](Experiment-02/) | Packages and modular programming | `MathUtil`, `UseMath`, `FeeApp`, fee-rule classes |
+| [Experiment 03](Experiment-03/) | Interfaces and polymorphism | `ShapeDemo`, `SortDemo`, `PaymentDemo` |
+| [Experiment 04](Experiment-04/) | Inheritance and abstraction | `InheritDemo`, `RoleDemo`, `SalarySlip` |
+| [Experiment 05](Experiment-05/) | Threads and synchronization | `ThreadDemo`, `SyncDemo`, `Booking` |
+| [Experiment 06](Experiment-06/) | Built-in and user-defined exceptions | `PredefinedDemo`, `UserDefinedDemo`, `Atm` |
+| [Experiment 07](Experiment-07/) | File reading and writing | `WriteFile`, `ReadFile`, `ResultReport` |
+| [Experiment 08](Experiment-08/) | Applet examples and lifecycle | `HelloApplet`, `LifeCycle`, `Palette` |
+| [Experiment 09](Experiment-09/) | AWT/Swing layouts and forms | `BorderDemo`, `GridDemo`, `FlowDemo`, `LoginForm`, `RegisterForm` |
+| [Experiment 10](Experiment-10/) | JDBC and database operations | `Db`, `FetchData`, `InsertData`, `StudentApp`, `database.sql` |
 
-Each experiment folder is intended to include related case-study work from the lab record.
+## Case studies
 
-## Prerequisites
+The applied programs are not limited to the basic demonstration classes. Examples include:
 
-- Install a JDK compatible with the source files.
-- Check each experiment for package names, required database drivers, and additional setup.
-- Database examples may require a compatible database and JDBC driver.
-- **Legacy applets:** applets are not supported by modern browsers and may require a compatible older Java environment or adaptation for demonstration.
+- Mess-bill calculation using an array of objects.
+- Course-fee calculation using packages and fee rules.
+- Payment methods and transaction charges using an interface.
+- Salary calculation for different employee types using inheritance.
+- A synchronized ticket-booking counter to prevent overbooking.
+- ATM withdrawal validation with custom exceptions.
+- Student result processing through file input and output.
+- Student registration and login forms using Swing.
+- Student record operations using JDBC and SQL.
+
+See the [Case Study Index](CASE-STUDIES/README.md) for the scenario, related experiment, expected deliverables, and completion checklist. Use the linked source files in the experiment folders rather than maintaining duplicate copies.
+
+## Requirements
+
+- JDK installed and available from the terminal (`java -version` and `javac -version`).
+- A Java IDE or a terminal editor.
+- For Experiment 10: a compatible database server, JDBC driver, and credentials configured in `Db.java`.
+- Applet programs are legacy coursework: modern browsers no longer run Java applets. Use a compatible teaching environment or explain the lifecycle through an appropriate demonstration.
 
 ## Compile and run
 
-From the directory containing a simple source file:
+For a standalone class, open a terminal in the folder containing the source file:
 
 ```bash
 javac StudentDemo.java
 java StudentDemo
 ```
 
-Replace the filename and class name with those for your chosen experiment. For packaged classes, compile and run from the appropriate parent directory using the fully qualified class name.
+Use the matching public class name for each program. Some examples require multiple source files to be compiled together; packaged programs must be compiled from the correct parent directory. For JDBC, configure the database and driver before running the program. For GUI programs, run in a desktop environment with graphical support.
 
-## Suggested workflow
+## Lab-submission checklist
 
-1. Open the relevant `Experiment-XX` folder.
-2. Review the source and case study.
-3. Confirm JDK, package, and driver requirements.
-4. Compile and run the example.
-5. Record the observed output and test additional inputs where appropriate.
+- [ ] Every prescribed experiment is present and numbered correctly.
+- [ ] Each program has a clear purpose and readable source code.
+- [ ] Case-study scenarios are documented and linked to their implementation.
+- [ ] Outputs are recorded for deterministic programs; GUI programs include a screenshot or a short description of the visible result.
+- [ ] File-based programs include the required input file and explain generated output files.
+- [ ] JDBC programs document database/table setup, driver configuration, and example records.
+- [ ] Code has been compiled and tested in the actual lab environment.
+- [ ] Names, experiment numbers, and required headings match the faculty's lab manual.
 
-## Repository layout
-
-```text
-JAVA/
-├── Experiment-01/
-├── Experiment-02/
-├── Experiment-03/
-├── Experiment-04/
-├── Experiment-05/
-├── Experiment-06/
-├── Experiment-07/
-├── Experiment-08/
-├── Experiment-09/
-└── Experiment-10/
-```
+> **Important:** This repository is a study and submission aid. Confirm the exact experiment list and case-study requirements against your faculty's lab manual before submission; a repository README cannot guarantee that it matches every instructor's rubric.
 
 ## Academic context
 
-Java Programming Laboratory coursework associated with **SCSVMV University**, Computer Science and Engineering (AI & Data Science).
+Java Programming Laboratory coursework — SCSVMV University, Computer Science and Engineering (AI & Data Science).
 
 ## Related repositories
 
@@ -76,4 +83,4 @@ Java Programming Laboratory coursework associated with **SCSVMV University**, Co
 
 ---
 
-<p align="center">Read the code, run the experiment, and document what you learn.</p>
+<p align="center">Understand the problem. Run the program. Verify the output.</p>
