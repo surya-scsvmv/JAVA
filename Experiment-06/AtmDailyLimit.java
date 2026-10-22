@@ -14,12 +14,12 @@ public class AtmDailyLimit {
     private static final double DAILY_LIMIT = 5000.0;
 
     private static void withdraw(double amount)
-            throws InvalidAmountException, LowBalanceException, DailyLimitExceededException {
+            throws InvalidDailyLimitAmountException, DailyLimitLowBalanceException, DailyLimitExceededException {
         if (amount <= 0 || amount % 100 != 0) {
-            throw new InvalidAmountException("Amount must be positive and a multiple of 100.");
+            throw new InvalidDailyLimitAmountException("Amount must be positive and a multiple of 100.");
         }
         if (amount > balance) {
-            throw new LowBalanceException("Insufficient balance. Available: Rs. " + balance);
+            throw new DailyLimitLowBalanceException("Insufficient balance. Available: Rs. " + balance);
         }
         if (withdrawnToday + amount > DAILY_LIMIT) {
             throw new DailyLimitExceededException(
@@ -37,7 +37,7 @@ public class AtmDailyLimit {
         for (double amount : requests) {
             try {
                 withdraw(amount);
-            } catch (InvalidAmountException | LowBalanceException | DailyLimitExceededException ex) {
+            } catch (InvalidDailyLimitAmountException | DailyLimitLowBalanceException | DailyLimitExceededException ex) {
                 System.out.println("Transaction declined: " + ex.getMessage());
             }
         }
